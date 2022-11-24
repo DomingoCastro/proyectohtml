@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1> Controles de formulario</h1>
+    <form>
+        <!-- Un label se utiliza para el texto asociado a un control -->
+        <label>Introduzca su nombre:</label>
+        <input type="text" name="cajanombre" required/>
+        <br/>
+        <label>Edad</label>
+        <input type="number" name="Edad" required/>
+        <br/>
+        <label>Selecciona rango</label>
+        <input type="range" name="Rango" min="1" max="40" required/>
+        <br/>
+        <label>Email</label>
+        <input type="email" name="Email" required/>
+        <br/>
+        <label>Fecha</label>
+        <input type="date" name="Fecha" required/>
+        <br/>
+        <label>Password</label>
+        <input type="password" name="Password" required/>
+        <br/>
+        <label"></label>
+        <input type="reset">
+        <button type="submit">
+        Enviar datos
+        </button>
+    </form>
+</body>
+</html>
