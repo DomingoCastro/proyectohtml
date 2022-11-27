@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datalists</title>
+</head>
+<body>
+    <ul>
+        <li>
+            <a href="web17datalist.html?Lenguaje=Python">Python</a>
+            <a href="web17datalist.html?Lenguaje=Cesar">Cesar</a>
+            <a href="web17datalist.html?Lenguaje=HTML">HTML</a>
+        </li>
+    </ul>
+
+
+    <h1>Datalists</h1>
+     <!-- ESTE CONTROL NO ES VISIBLE -->
+    <datalist id="datanombres">
+        <option value="Ana"/>
+        <option value="Adrian"/>
+        <option value="Alex"/>
+        <option value="Domi"/>
+        <option value="Paco"/>
+        <option value="Jose"/>
+        <option value="Rafa"/>
+        <option value="Zoe"/>
+    </datalist>
+       <form method="post">
+        <label>Introduzca su nombre</label>
+        <input type="text" name="cajanombre" list="datanombres"/>
+       </br>
+        <button type="submit">
+            Enviar Datos
+        </button>
+       </form>
+   
+</body>
+</html>
